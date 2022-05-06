@@ -1,0 +1,18 @@
+.a-input {
+  padding: 2.25rem;
+  padding-left: 3.2rem;
+  background-color: $gray-200;
+  outline: none;
+  border: none;
+  width: 100%;
+
+  &::placeholder {
+    color: $primary;
+    font-family: inherit;
+    opacity: .4;
+  }
+
+  &--textarea {
+    resize: none
+  }
+}
